@@ -6,8 +6,8 @@ import Qs from 'qs';
 import { updateStatusPerson } from './mongo.mjs';
 
 const server = Hapi.server({
-    port: 3002,
-    host: 'localhost',
+    port: ~~process.env.PORT || 3002,
+    host: '0.0.0.0',
     query: {
         parser: (query) => Qs.parse(query)
     }
