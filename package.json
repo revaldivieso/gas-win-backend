@@ -19,7 +19,8 @@
   "dependencies": {
     "@hapi/hapi": "^19.2.0",
     "@hapi/joi": "^17.1.1",
-    "mongoose": "^5.9.25"
+    "mongoose": "^5.9.25",
+    "qs": "^6.9.4"
   },
   "type": "module",
   "engines": {
