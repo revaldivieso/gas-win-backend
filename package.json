@@ -21,5 +21,8 @@
     "@hapi/joi": "^17.1.1",
     "mongoose": "^5.9.25"
   },
-  "type": "module"
+  "type": "module",
+  "engines": {
+    "node": "13.14.0"
+  }
 }
