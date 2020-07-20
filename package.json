@@ -1,0 +1,25 @@
+{
+  "name": "gas-win-backend",
+  "version": "1.0.0",
+  "description": "api de almacenamiento de registro de empresas",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revaldivieso/gas-win-backend.git"
+  },
+  "author": "vianny reyes <reyesvi92@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/revaldivieso/gas-win-backend/issues"
+  },
+  "homepage": "https://github.com/revaldivieso/gas-win-backend#readme",
+  "dependencies": {
+    "@hapi/hapi": "^19.2.0",
+    "@hapi/joi": "^17.1.1",
+    "mongoose": "^5.9.25"
+  },
+  "type": "module"
+}
