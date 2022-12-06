@@ -20,7 +20,7 @@
     "@hapi/hapi": "^19.2.0",
     "@hapi/joi": "^17.1.1",
     "mongoose": "^5.9.25",
-    "qs": "^6.9.4"
+    "qs": "^6.9.7"
   },
   "type": "module",
   "engines": {
